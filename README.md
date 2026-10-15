@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/custom-components/blueprint.svg?style=for-the-badge)](LICENSE)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-Thermia Heat Pump Integration for Home Assistant. Depends on [Python Thermia Online API](https://github.com/klejejs/python-thermia-online-api).
+Thermia Heat Pump Integration for Home Assistant. Depends on [Python Thermia Online API](https://github.com/haapamakim/python-thermia-online-api).
 
 _Component to integrate with [Thermia Heat Pump](https://github.com/klejejs/ha-thermia-heat-pump-integration)._
 
@@ -21,7 +21,7 @@ Platform | Description
 
 ## Supported heat pump models:
 
-The integration supports heat pumps that are supported by the underlying [Python Thermia Online API](https://github.com/klejejs/python-thermia-online-api). To see the list of supported heat pumps, please check the list of example heat pump data files in the API repository [here](https://github.com/klejejs/python-thermia-online-api/tree/main/ThermiaOnlineAPI/tests/debug_files).
+The integration supports heat pumps that are supported by the underlying [Python Thermia Online API](https://github.com/haapamakim/python-thermia-online-api). To see the list of supported heat pumps, please check the list of example heat pump data files in the API repository [here](https://github.com/haapamakim/python-thermia-online-api/tree/main/ThermiaOnlineAPI/tests/debug_files).
 
 ## Adding support for new heat pump models:
 
@@ -39,7 +39,7 @@ Open HACS, go to the Integrations view and search for Thermia Heat Pump Integrat
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 2. If you do not have a `custom_components` directory (folder) there, you need to create it.
-3. Download the latest release zip file either from repository releases or using this [link](https://github.com/klejejs/python-thermia-online-api/releases/latest/download/thermia.zip).
+3. Download the latest release zip file either from repository releases or using this [link](https://github.com/haapamakim/python-thermia-online-api/releases/latest/download/thermia.zip).
 4. Extract the content of the zip file to the `custom_components` directory (folder) in your HA configuration directory (folder).
 5. Restart Home Assistant.
 
